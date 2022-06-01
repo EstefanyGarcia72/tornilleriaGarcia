@@ -75,7 +75,9 @@ p{
     background-size: 180px 180px;
     background-repeat: no-repeat;
 }
-
+footer{
+    height: 200px;
+}
 .redes{
     background-color: aqua;
 }
