@@ -67,16 +67,18 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer{
-    color: cornflowerblue;
+.logo{
     width: 100%;
     height: 200px;
     background-image: url(imagenes/torni.jpg);
-    text-align: center;
-    background-size: 140px 140px;
+    text-align: right;
+    background-size: 180px 180px;
     background-repeat: no-repeat;
 }
 
+.redes{
+    background-color: aqua;
+}
 footer i{
     font-size: 50px;
     color:black;
@@ -111,7 +113,7 @@ footer i{
 }
 .marca{
     border: 1px solid white;
-    height: 200px;
+    height: 180px;
     line-height:normal;
     border-radius: 5%;
 }
@@ -140,10 +142,16 @@ footer i{
     background-size: cover;
     background-position: center;
 }
+.img666{
+    background-size: 180px;
+}
 
 .img{
     border: 1px solid white;
+    color: yellowgreen;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     min-height: 200px;
+    text-shadow: 40px;
 
 }
 .img1{
