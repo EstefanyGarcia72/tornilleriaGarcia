@@ -11,8 +11,9 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav ul{
+    background-color: linear-gradient(to top,cornflowerblue,white);
     padding: 20px;
-    background: rgba(100, 148, 237, 0.199);
+    background: rgba(100, 148, 237, 0.505);
     width: 100%;
     list-style-type: none;
     text-align: center;
@@ -28,16 +29,11 @@ nav a{
     width: 200px;
     font-size: xx-large;
 }
-nav ul{
-    background: rgba(100, 148, 237, 0.705);
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-}
 nav li:hover{
     height: 100%;
     padding: 10px;
     background-color: rgba(128, 0, 128, 0.292);
+    text-decoration: none;
 }
 img{
     width: 200px;
@@ -74,6 +70,15 @@ p{
     text-align: right;
     background-size: 180px 180px;
     background-repeat: no-repeat;
+}
+.tor{
+    width: 100%;
+    image-orientation: center;
+    background-image: url(imagenes/imag.jpg);
+    text-align: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }
 footer{
     height: 200px;
